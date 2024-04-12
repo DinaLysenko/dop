@@ -40,7 +40,7 @@ function RouterApp() {
                         <Route path={PATH.PAGE3} element={<PageThree/>}/>
 
                         <Route path="*" element={<Navigate to={PATH.PAGEERROR}/>}/>
-                        <Route path={PATH.PAGEERROR} element={<Error404/>}/>
+                        {/*<Route path={PATH.PAGEERROR} element={<Error404/>}/>*/}
                     </Routes>
                 </div>
             </div>
